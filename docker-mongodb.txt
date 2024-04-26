@@ -1,0 +1,1 @@
+docker container run --name desafio-docker-3 -e MONGO_INITDB_ROOT_USERNAME=mongo_usr -e MONGO_INITDB_ROOT_PASSWORD=mongo_pwd -p 28017:28017 -d mongo:latest
